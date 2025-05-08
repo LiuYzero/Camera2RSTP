@@ -5,3 +5,7 @@ ffmpeg -f v4l2 -video_size 1280x720 -framerate 30 -i /dev/video0 \
 -c:v mpeg4 -q:v 1 \
 -f rtsp rtsp://localhost:8554/x250-camera
 ```
+
+# Windows OS with Python
+
+![Code/img.png](Code/img.png)
