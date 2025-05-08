@@ -3,7 +3,7 @@ import subprocess
 import sys
 from datetime import datetime
 
-def camera_to_rtsp(cam_index=0, rtsp_url='rtsp://localhost:8554/msi-camera'):
+def camera_to_rtsp(cam_index=0, rtsp_url='rtsp://192.168.1.108:8554/msi-camera'):
     # 摄像头初始化
     cap = cv2.VideoCapture(cam_index)
     if not cap.isOpened():
